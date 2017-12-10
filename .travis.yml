@@ -1,12 +1,7 @@
 language: python
 python:
-<<<<<<< .merge_file_a06124
   - "3.4"
   - "3.5"
-=======
-  - '3.4'
-  - '3.5'
->>>>>>> .merge_file_a06528
 script: python -m unittest
 notifications:
   slack:
