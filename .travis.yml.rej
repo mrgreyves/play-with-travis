@@ -1,0 +1,11 @@
+diff a/.travis.yml b/.travis.yml	(rejected hunks)
+@@ -1,7 +1,7 @@
+ language: python
+ python:
+-- '3.4'
+-- '3.5'
++  - '3.4'
++  - '3.5'
+ script: python -m unittest
+ notifications:
+   slack:
