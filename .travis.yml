@@ -1,7 +1,12 @@
 language: python
 python:
+<<<<<<< HEAD
   - "3.4"
   - "3.5"
+=======
+- '3.4'
+- '3.5'
+>>>>>>> parent of 3a2a7ea... Fixed gaps in travis.yml
 script: python -m unittest
 notifications:
   slack:
